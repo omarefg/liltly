@@ -5,13 +5,12 @@
   "keywords": [],
   "author": "Omar Flores Grimontt <dev@omarefg.com>",
   "license": "ISC",
-  "main": "lib/links-module.js",
+  "main": "src/main",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "src": "src"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
@@ -26,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/omarefg/liltly/issues"
   },
-  "homepage": "https://github.com/omarefg/liltly#readme"
+  "homepage": "https://github.com/omarefg/liltly#readme",
+  "dependencies": {
+    "@liltly/mongodb-connection-module": "^1.0.0",
+    "mongoose": "^5.11.17"
+  }
 }
