@@ -4,6 +4,11 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  globals: {
+    describe: true,
+    it: true,
+    expect: true,
+  },
   extends: [
     'plugin:react/recommended',
     'airbnb',

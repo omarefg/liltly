@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/omarefg/liltly#readme",
   "dependencies": {
-    "mongoose": "5.11.16"
+    "mongoose": "5.11.18"
   }
 }

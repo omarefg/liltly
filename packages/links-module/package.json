@@ -20,7 +20,8 @@
     "url": "git+https://github.com/omarefg/liltly.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest --watch-all",
+    "coverage": "jest --coverage"
   },
   "bugs": {
     "url": "https://github.com/omarefg/liltly/issues"
@@ -28,6 +29,9 @@
   "homepage": "https://github.com/omarefg/liltly#readme",
   "dependencies": {
     "@liltly/mongodb-connection-module": "^1.0.0",
-    "mongoose": "^5.11.17"
+    "mongoose": "5.11.18"
+  },
+  "devDependencies": {
+    "faker": "5.4.0"
   }
 }
