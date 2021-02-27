@@ -4,7 +4,7 @@ const dbConnection = require('../repositories/mongodb/dbClient');
 
 const LinkSchema = new Schema(
   {
-    orinalUrl: { type: String, required: true },
+    orinalURL: { type: String, required: true },
     hash: { type: String, required: true },
   },
   {

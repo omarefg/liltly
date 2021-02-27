@@ -8,6 +8,7 @@ module.exports = {
     describe: true,
     it: true,
     expect: true,
+    jest: true,
   },
   extends: [
     'plugin:react/recommended',
