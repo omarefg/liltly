@@ -21,7 +21,8 @@
   },
   "scripts": {
     "test": "jest --watch-all",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "dev": "NODE_ENV=develop node src/index"
   },
   "bugs": {
     "url": "https://github.com/omarefg/liltly/issues"
@@ -29,7 +30,8 @@
   "homepage": "https://github.com/omarefg/liltly#readme",
   "dependencies": {
     "@liltly/mongodb-connection-module": "^1.0.0",
-    "mongoose": "5.11.18"
+    "mongoose": "5.11.18",
+    "nanoid": "3.1.20"
   },
   "devDependencies": {
     "faker": "5.4.0"

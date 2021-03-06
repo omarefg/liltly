@@ -14,7 +14,7 @@ switch (process.env.NODE_ENV) {
   }
   case supportedEnvs.DEVELOP: {
     environment = 'DEV_';
-    path = `${process.env.HOME}`;
+    path = `${__dirname}/../${env}`;
     break;
   }
   default: {
